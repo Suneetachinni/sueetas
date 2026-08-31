@@ -10,9 +10,4 @@ match subject:
     case 'English' | 'Grammar' if score >= 80:
         print("Excellent in English!")
 
-    # if score is 80 or higher in Maths
-    case 'Maths' if score >= 80:
-        print("Excellent in Maths!")
-        
-    case _:
-        print(f"Needs improvement in {subject}!")
+  
