@@ -11,8 +11,5 @@ match operator:
     case '*':
         result = x * y
     case '/':
-        result = x / y
-    case _:
-         result = "Unsupported operator"
-
+  
 print(result)
